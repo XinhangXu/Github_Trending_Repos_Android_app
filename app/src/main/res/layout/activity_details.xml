@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/detlact_imgview_owner"
+                android:src="@drawable/github_logo1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true"/>
+
+            <LinearLayout
+                android:id="@+id/detlact_linearlayout1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/detlact_imgview_owner"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp">
+
+                <TextView
+                    android:id="@+id/detlact_txtview_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_score_1"
+                    android:textSize="16dp"
+                    android:text=" 123"
+                    android:layout_margin="15dp"></TextView>
+
+                <TextView
+                    android:id="@+id/detlact_txtview_forks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_person_1"
+                    android:textSize="16dp"
+                    android:text=" 123"
+                    android:layout_margin="15dp">></TextView>
+
+                <TextView
+                    android:id="@+id/detlact_txtview_watches"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_tv_1"
+                    android:textSize="16dp"
+                    android:text=" 123"
+                    android:layout_margin="15dp">></TextView>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/detlact_txtview_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/detlact_linearlayout1"
+                android:layout_centerHorizontal="true"
+                android:textSize="18dp"
+                android:text="Author Name"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"></TextView>
+
+
+            <TextView
+                android:id="@+id/detlact_txtview_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/detlact_txtview_name"
+                android:drawableLeft="@drawable/ic_circle_blue_1"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp"
+                android:text=" Language"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"></TextView>
+
+            <TextView
+                android:id="@+id/detlact_txtview_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/detlact_txtview_language"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp"
+                android:text="Title"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"></TextView>
+
+            <TextView
+                android:id="@+id/detlact_txtview_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/detlact_txtview_title"
+                android:layout_centerHorizontal="true"
+                android:textSize="18dp"
+                android:text="This is description. This is description. This is description. This is description. "
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"></TextView>
+
+
+
+            <LinearLayout
+                android:id="@+id/detlact_linearlayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/detlact_txtview_description"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textSize="16dp"
+                        android:gravity="right"
+                        android:textStyle="italic"
+                        android:text="Created at: "></TextView>
+                    <TextView
+                        android:id="@+id/detlact_txtview_createdon"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textSize="16dp"
+                        android:textStyle="italic"
+                        android:text="xxxx xx xx"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textSize="16dp"
+                        android:gravity="right"
+                        android:textStyle="italic"
+                        android:text="Updated at: "></TextView>
+                    <TextView
+                        android:id="@+id/detlact_txtview_updatedon"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textSize="16dp"
+                        android:textStyle="italic"
+                        android:text="xxxx xx xx"></TextView>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textSize="16dp"
+                        android:gravity="right"
+                        android:textStyle="italic"
+                        android:text="Issues Count: "></TextView>
+                    <TextView
+                        android:id="@+id/detlact_txtview_issuescount"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textSize="16dp"
+                        android:textStyle="italic"
+                        android:text="xxxx"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/detlact_txtview_browser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_below="@+id/detlact_linearlayout2"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/button_bg_curve_blue"
+                android:textSize="20dp"
+                android:text="View More Details"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:padding="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"></TextView>
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>

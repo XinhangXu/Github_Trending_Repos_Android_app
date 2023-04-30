@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp"
+    android:id="@+id/cardViewDet"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <RelativeLayout
+        android:id="@+id/whole_row_repos_items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imgview_owner_img"
+            android:src="@drawable/github_logo1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:id="@+id/txtview_owner_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="4dp"
+            android:layout_toRightOf="@+id/imgview_owner_img"
+            android:text="Test 123"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:singleLine="true"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:id="@+id/txtview_owner_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="dd mm yyyy xx:xx AM"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/imgview_owner_img"
+            android:layout_below="@+id/txtview_owner_title"></TextView>
+
+        <TextView
+            android:id="@+id/txtview_owner_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgview_owner_img"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:paddingRight="20dp"
+            android:maxLines="2"
+            android:text="Test this is description, this is description this is description this is description this"
+            android:textSize="16dp"></TextView>
+
+
+        <TextView
+            android:id="@+id/txtview_owner_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_circle_blue_1"
+            android:textSize="16dp"
+            android:text=" Language"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_below="@+id/txtview_owner_description"></TextView>
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        app:srcCompat="@drawable/ic_right_1"
+        android:layout_marginRight="10dp"></ImageView>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+
+
+    <RelativeLayout
+        android:id="@+id/loadingBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:focusableInTouchMode="false"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/loading_img"
+            android:src="@drawable/github_logo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="50dp"
+            android:layout_centerInParent="true"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Powered by Xinhang Xu"
+            android:textSize="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp">
+        </TextView>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
