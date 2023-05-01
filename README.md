@@ -14,7 +14,7 @@ Android App in Kotlin - Github Trending Repositories
 </p>
 
 <p align="center">
-<img src="/screenshots/app_1.png" width="200"/> <img src="/screenshots/app_2.png" width="200"/> <img src="/screenshots/app_3.png" width="200"/>
+<img src="/screenshots/app_1.jpg" width="200"/> <img src="/screenshots/app_2.jpg" width="200"/> <img src="/screenshots/app_3.jpg" width="200"/>
 </p>
 
 ## Download
