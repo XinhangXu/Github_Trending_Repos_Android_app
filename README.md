@@ -18,7 +18,7 @@ Android App in Kotlin - Github Trending Repositories
 </p>
 
 ## Download
-Go to the [Releases](https://github.com/XinhangXu/Github_Trending_Repos_Android_app/blob/master/screenshots/githubtrending_apk.apk) to download the lastest APK.
+Click [HERE](https://github.com/XinhangXu/Github_Trending_Repos_Android_app/blob/master/screenshots/githubtrending_apk.apk) to download the lastest APK.
 
 ## API
 API is from Github docs,
